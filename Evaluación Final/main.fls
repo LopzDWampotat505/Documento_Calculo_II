@@ -1,6 +1,6 @@
-PWD c:\Users\juanp\OneDrive\Documentos\GitHub\Documento_Calculo_II\Evaluación Final
+PWD c:\Users\juanp\OneDrive\Documentos\Documento_Calculo_II\Evaluación Final
 INPUT C:\Users\juanp\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\juanp\OneDrive\Documentos\GitHub\Documento_Calculo_II\Evaluación Final\main.tex
+INPUT c:\Users\juanp\OneDrive\Documentos\Documento_Calculo_II\Evaluación Final\main.tex
 OUTPUT main.log
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -14,13 +14,13 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.de
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-en.ini
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
@@ -191,7 +191,6 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tf
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -217,25 +216,44 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Cilindro.png
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb

@@ -12,8 +12,8 @@
 %%%%%%%% Paquetes basicos, pueden encontrar información especifica de cada uno de ellos en  (https://www.ctan.org/) %%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[spanish]{babel} %Indica que escribiermos en español
-%\usepackage[english]{babel} %Indica que escribiermos en inglés
+%\usepackage[spanish]{babel} %Indica que escribiermos en español
+\usepackage[english]{babel} %Indica que escribiermos en inglés
 %Comentar la línea del idioma que NO usarán en su reporte
 \usepackage[utf8]{inputenc} %Indica qué codificación se está usando ISO-8859-1(latin1)  o utf8  
 \usepackage{amsmath} % Comandos extras para matemáticas (cajas para ecuaciones,etc)
@@ -76,11 +76,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\titulo{Documento Evaluación Final}%titulo del documento
+\def\titulo{Reporte: Explorando la Optimización}% Título
 \def\materia{Cálculo II MAT2012-13} %Clave nombre de la materia y sección
 \def\prof{Anabel Hernandez Ramirez}
 \def\curso{Cálculo II} %Nombre de la materia para footnote
-\def\fecha{27 de Noviembre de 2025} %En formato mes, dia año
+\def\fecha{21 de Noviembre de 2025} % Fecha
 \def\equipo {Malcolm in The Middle}%Verificar en blackboard el número asignado
 \def\ida{183339} %Estudiante A
 \def\esta{Juan Pablo Lopez Moreno}
@@ -105,32 +105,25 @@
 \def\idf{182884} %Estudiante F
 \def\estf{Yahel Reyes Noguez}
 \def\licf{LBM}
-%Copiar y pegar más líneas si su equipo tiene más de 5 integrantes, eliminar si está formado por menos
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document} %Inicia el documento
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%No es necesario modificar ninguna de las siguientes lineas, sólo si el número de estudiantes que conforman su equipo es menor o mayor a 5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{center}														
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}						
-\thispagestyle{empty} 												
-\vspace*{-1.5cm}								
-\textsc{\huge Universidad de las Américas Puebla}\\[1.5cm]	
-\textsc{\LARGE Escuela de ciencias}\\[1.5cm]	
-\textsc{\LARGE Departamento de Actuaría, Física y Matemáticas}\\[1.5cm]												
-\includegraphics[width=150mm]{UDLAP}  									\vspace*{1cm}														\HRule \\[0.4cm]												
-{ \huge \bfseries \titulo}\\[0.4cm]	
-\HRule \\[1cm]														
+\begin{center} 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\thispagestyle{empty} 
+\vspace*{-1.5cm} 
+\textsc{\huge Universidad de las Américas Puebla}\\[1.5cm] 
+\textsc{\LARGE Escuela de ciencias}\\[1.5cm] 
+\textsc{\LARGE Departamento de Actuaría, Física y Matemáticas}\\[1.5cm]  
+\includegraphics[width=150mm]{UDLAP}\vspace*{1cm}  \HRule \\[0.4cm] 
+{ \huge \bfseries \titulo}\\[0.4cm] 
+\HRule \\[1cm] 
 { \Large \bfseries \materia}\\ [0.25cm]
 { \Large \prof}\\[1cm]
-{ \Large \bfseries Equipo: \equipo}\\[1cm] 							
+{ \Large \bfseries Equipo: \equipo}\\[1cm] 
 \begin{flushleft} \Large 
 \ida \hspace{0.5cm}\esta \hspace{0.5cm} \lica\\
 \idb \hspace{0.5cm}\estb \hspace{0.5cm} \licb\\
@@ -139,87 +132,127 @@
 \ide \hspace{0.5cm}\este \hspace{0.5cm} \lice\\
 \idf \hspace{0.5cm}\estf \hspace{0.5cm} \licf\\
 %Copiar y pegar más líneas si su equipo tiene más de 2 integrantes, eliminar si la entrega es individual
-\end{flushleft}														
-\vfill																
-\begin{center}													
-{\Large  \fecha, San Andrés Cholula, Puebla}						
-\end{center}												 		
-\end{center}							 								\newpage						
+\end{flushleft} 
+\vfill 
+\begin{center} 
+{\Large \fecha, San Andrés Cholula, Puebla} 
+\end{center} 
+\end{center} \newpage 
 %%%%%%%%%%%%%%%%%%%% TERMINA PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setcounter{page}{1} %Para comenzar a numerar las páginas desde este punto
-\section{Abstract} %Síntesis del reporte en un solo párrafo
-This report will present the results obtained from the forth laboratory practice of the Digital Design course. The main objective of this practice was to begin the development of
-FPGAs, continuing the use of VHDL as a programming language. The practice focused on the implementation and simulation of combinational logic circuits using both schematic diagrams and Boolean functions. 
-\section{Introduction} %Breve introducción al tema del reporte
-Wih the evolution of technologies, digital systems have increasingly incorporated more complex logic behind their functionality, for these reason, technologies have to evolve and improve to suit these needs.
-For this reason, FPGAs (Field Programmable Gate Arrays) have become a popular choice for implementing digital logic circuits due to their flexibility and reconfigurability. FPGAs allow designers to program custom logic functions directly onto the hardware, enabling rapid prototyping and development of complex digital systems.
-In order to understand the functioning of the Gate Arrays used, a couple of combinational logic gates will be explored in the lab practice, these gates are as follows:
-\begin{itemize}
-  \item Half-substractor, performs the binary subtraction of two single-bit binary numbers. It has two inputs, A and B, and two outputs, Difference and Borrow.
-  \item Multiplexer, combinational circuit that has many data inputs and a single output, depending on control or select inputs.
-  \item Demultiplexer, data distributor combinational circuit. It works in a reverse way of the Multiplexer.
-  \item Magnitud Comparator, combinational circuit that compares two digital or binary numbers in order to find out whether one binary number is equal, less than, or greater than the other binary number.
-\end{itemize}\cite{GfGCombinational}
-It's critical to comprehend not only how these combinational circuits operate but also the various ways in which they can be connected within a program or FPGA. Additionally, we can investigate the plethora of possibilities in the field of digital logic by experimenting with various configurations.
-\section{Objectives} %Objetivos de la práctica
-The objectives of this lab are:
-\begin{itemize}
-    \item Program and simulate basic combinational logic circuits VHDL.
-    \item Implement basic combination circuits on the Basys 3 board.
-\end{itemize}
-For the purpose of this lab, we must understand the following concepts:
-\begin{itemize}
-    \item Combinational Logic Circuits
-    \item VHDL Programming
-    \item FPGA Implementation
-\end{itemize}
-Of which, we must begin explaining combiantional logic circuits, which are very well-known components in digital electronics, which can provide an output instantly based on the current input. Unlike sequential circuits, a combinational circuit listens for input signals and generates output regardless of the past input or state, as it has no feedback or memory component.\cite{GfGCombinational}
-VHDL, which has been used in previous labs, is a hardware description language that allows designers to describe the behavior and structure of digital systems. VHDL is widely used for designing FPGAs and ASICs (Application-Specific Integrated Circuits) due to its ability to model complex digital systems at various levels of abstraction.\cite{IntelVHDLDef}
-Finally,field programmable gate array (FPGA) is a versatile type of integrated circuit, which, unlike traditional logic devices such as application-specific integrated circuits (ASICs), is designed to be programmable (and often reprogrammable) to suit different purposes, notably high-performance computing (HPC) and prototyping.\cite{IBMFPGA} FPGA implementation involves programming the FPGA device with the designed VHDL code to realize the desired combinational logic circuit. This process includes synthesis, mapping, placement, and routing of the design onto the FPGA fabric. 
-\section{Methodology}
-The methodology applied in this laboratory practice was structured into three main phases: physical implementation in the laboratory, simulation in Multisim, and programming in EDA Playground.
 
-\subsection{Physical Laboratory Phase}
-During the laboratory work, the following activities were carried out:
+\section{Planteamiento del Problema}
+
+La optimización con restricciones en funciones de dos variables es una técnica clave del análisis matemático, mediante la cual se busca optimizar (maximizar o minimizar) una función objetivo respetando ciertas condiciones que limitan las variables, como por ejemplo un volumen fijo.
+
+\subsection*{Problema Específico}
+Se desea diseñar un cilindro abierto (sin tapa) con volumen fijo de $V=500\text{ cm}^{3}$ de manera que se minimice el área total del material utilizado.
 
 \begin{itemize}
-    \item The Boolean function and the truth table corresponding to the schematic shown in Figure 1 were obtained through logical analysis of its structure.
-    \item The schematic and truth table of the Boolean function provided in the practice were determined:
-    $$F(A,B,C,D) = (B' \cdot D) \cdot (A \oplus B) + (C \cdot A)$$
-    \item The consistency between the derived truth tables and the constructed schematics was verified, ensuring the correct representation of the logical expressions.
+ \item \textbf{Función Objetivo (Área a Minimizar):} $A(r,h)=\pi r^{2}+2\pi rh$.
+ \item \textbf{Restricción (Volumen Fijo):} $V(r,h)=\pi r^{2}h = 500$.
 \end{itemize}
 
-\subsection{Multisim Simulation Phase}
-In the Multisim simulation environment, the following procedures were performed:
+\section{Método de Solución}
+
+Para resolver el problema de optimización, se siguió el siguiente procedimiento:
+
+\begin{enumerate}
+ \item \textbf{Planteamiento de la Restricción:} Se despejó la altura $h$ en función del radio $r$ a partir de la restricción del volumen fijo $V=500\text{ cm}^3$.
+ \item \textbf{Formulación del Área Total $A(r)$:} Se sustituyó la expresión de $h(r)$ en la función de área $A(r,h)$ para obtener una función de una sola variable, $A(r)$.
+ \item \textbf{Búsqueda de Puntos Críticos:} Se calculó la primera derivada $A^{\prime}(r)$, se igualó a cero para encontrar el punto crítico, y se despejó el radio óptimo $r$.
+ \item \textbf{Cálculo de la Altura Óptima:} El valor de $r$ hallado se sustituyó en la expresión de $h(r)$ para obtener la altura óptima $h$.
+ \item \textbf{Comprobación (Clasificación):} Se utilizó la segunda derivada $A^{\prime\prime}(r)$ para verificar que el punto crítico corresponde a un mínimo.
+ \item \textbf{Evaluación del Área Mínima:} Se sustituyó el radio óptimo en $A(r)$ para obtener el área mínima.
+\end{enumerate}
+
+\section{Cálculos Completos}
+
+\subsection{1. Expresión del Área en una Variable}
+\textbf{Restricción (Volumen):} $V=\pi r^{2}h=500$.
+\begin{equation}
+ h = \frac{500}{\pi r^{2}} \label{eq:h}
+\end{equation}
+\textbf{Función de Área:} $A(r,h)=2\pi rh+\pi r^{2}$.
+Sustituyendo $h$ (Ec. \ref{eq:h}) en $A(r,h)$:
+\begin{equation}
+ A(r) = 2\pi r \left( \frac{500}{\pi r^{2}} \right) + \pi r^{2} = \frac{1000}{r} + \pi r^{2}
+\end{equation}
+
+\subsection{2. Puntos Críticos}
+Calculando la primera derivada $A^{\prime}(r)$:
+\begin{equation}
+ A^{\prime}(r) = -\frac{1000}{r^{2}} + 2\pi r
+\end{equation}
+Igualando a cero para encontrar el punto crítico $A^{\prime}(r)=0$:
+\begin{align*}
+ -\frac{1000}{r^{2}} + 2\pi r &= 0 \\
+ 2\pi r &= \frac{1000}{r^{2}} \\
+ 2\pi r^{3} &= 1000 \\
+ r^{3} &= \frac{1000}{2\pi}
+\end{align*}
+El radio óptimo es:
+\begin{equation}
+ r = \left(\frac{1000}{2\pi}\right)^{1/3} \approx 5.419\text{ cm}
+\end{equation}
+
+\subsection{3. Altura Óptima}
+Sustituyendo $r$ en la ecuación de $h$ (Ec. \ref{eq:h}):
+\begin{equation}
+ h = \frac{500}{\pi (5.419)^{2}} \approx 5.419\text{ cm}
+\end{equation}
+\textbf{Resultado:} Se confirma que $r=h \approx 5.419\text{ cm}$.
+
+\section{Clasificación de Puntos Críticos}
+
+Para clasificar el punto crítico, se utiliza el criterio de la segunda derivada.
+
+\subsection{Segunda Derivada}
+Calculando la segunda derivada $A^{\prime\prime}(r)$:
+\begin{equation}
+ A^{\prime\prime}(r) = \frac{2000}{r^{3}} + 2\pi
+\end{equation}
+
+\subsection{Evaluación en el Punto Crítico}
+Evaluando en el punto crítico (usando la aproximación $r \approx 5\text{ cm}$ para simplificar el cálculo en el reporte):
+\begin{align*}
+ A^{\prime\prime}(5) &= \frac{2000}{5^{3}} + 2\pi \\
+ A^{\prime\prime}(5) &= \frac{2000}{125} + 2\pi \\
+ A^{\prime\prime}(5) &= 16 + 2\pi
+\end{align*}
+
+Dado que $A^{\prime\prime}(5) > 0$, se concluye que el punto crítico corresponde a un \textbf{mínimo}. Esto significa que las dimensiones $r=h=5.419\text{ cm}$ minimizan el área total del material.
+
+\section{Gráficas Generadas por el Equipo}
+
+La gráfica muestra el modelo geométrico del cilindro sin tapa que se utiliza en el problema de optimización. En este modelo, el volumen del cilindro se mantiene fijo en $500\text{ cm}^3$, y el objetivo es encontrar las dimensiones (radio $r$ y altura $h$) que minimicen el área total del material necesario para construirlo.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.3\textwidth]{Cilindro.png} 
+ \caption{Representación Geométrica del Cilindro Óptimo.}
+\end{figure}
+
+La visualización ayuda a entender por qué la solución matemática exige que el radio y la altura deben ser iguales ($r = h$) para reducir al mínimo el material utilizado.
+
+\section{Conclusiones}
+
+El problema de optimización se resolvió satisfactoriamente. El estudio de la optimización con restricciones en funciones de dos variables permitió lograr el diseño óptimo bajo la condición limitante del volumen fijo.
+
 \begin{itemize}
-    \item Both circuits were virtually constructed using the logic components available in the software.
-    \item Simulations were executed to validate the expected behavior of each circuit.
-    \item The obtained results were compared with the analytically derived truth tables to confirm the correctness of the designs.
+ \item \textbf{Resultados:} El área mínima del cilindro ocurre cuando el radio y la altura son iguales, con valores aproximados $r=h \approx 5.41926\text{ cm}$.
+ \item \textbf{Área Mínima:} En estas dimensiones, el área total del material alcanza aproximadamente $A \approx 276.791\text{ cm}^{2}$.
+ \item \textbf{Aplicación Práctica:} Esta metodología se utiliza en campos como el diseño industrial, la ingeniería y la manufactura, donde reducir el área de material implica disminuir costos, peso y desperdicio, siendo esencial para optimizar envases y recipientes.
 \end{itemize}
 
-\subsection{EDA Playground Programming Phase}
-Finally, in the EDA Playground platform, the following actions were conducted:
-\begin{itemize}
-    \item Both Boolean functions were programmed using the VHDL language, following proper coding conventions.
-    \item Testbenches were created and applied to verify the correct functionality of the circuits under all possible input combinations.
-    \item The simulation results were validated against those obtained in the previous phases.
-\end{itemize}
+\section{Bibliografía}
+\begin{thebibliography}{99}
+ \bibitem{IBM} IBM. (s.f.). \textit{¿Qué es el modelado de optimización?} \url{https://www.ibm.com/mx-es/think/topics/optimization-model}.
+ \bibitem{Martins} Martins, J. R. R. A., \& Ning, A. (2021). \textit{Engineering Design Optimization}. Cambridge University Press. \url{https://flowlab.groups.et.byu.net/mdobook.pdf}.
+ \bibitem{LinaM3} La Prof Lina M3. (2019, 8 mayo). \textit{Dimensiones de un cilindro para que el material sea mínimo | La Prof Lina M3} [Vídeo]. YouTube. \url{https://www.youtube.com/watch?v=TVLb1VZUt4c}.
+ \bibitem{Stewart} Stewart, J. (2012). \textit{Cálculo de varias variables trascendentes tempranas}. (7th ed.). Cengage Learning Editores. \url{https://intranetua.uantof.cl/estudiomat/calculo3/stewart.pdf}.
+\end{thebibliography}
 
-\section{Results} %Resultados obtenidos
-
-
-\section{Conclusions} %Conclusiones del reporte
-The development of this practice allowed the fulfillment of the laboratory objectives, as Boolean functions were obtained from schematics, and schematics were interpreted from Boolean functions. Additionally, the Boolean functions were programmed and simulated using VHDL, confirming their correct logical behavior. The detailed identification of gates, analysis of partial outputs, and the creation of truth tables and canonical forms allowed algebraic validation of the results. Simulations performed in Multisim and EDA Playground corroborated the consistency between theory and practice, demonstrating the usefulness of digital simulation tools for predicting and verifying circuit operation. In this way, the practice not only enabled experimental validation of theoretical principles but also reinforced the understanding of programming and simulation of Boolean functions in digital environments.
-%%%%%%% Bibliografía %%%%%%%%
-\clearpage %Asegura que la bibliografía inicie en una nueva página
-\bibliographystyle{bst/IEEEtran} %Estilo de bibliografía NO MODIFICAR PARA MANTENER FORMATO
-\bibliography{bib/bibliografia} %Fuentes bibliográficas Se recomienda utilizar un gestor de referencias (zotero, jabref, etc..)
-%%%%%%% Bibliografía %%%%%%%%      
-\end{document} %Termina el documento
-%% Known issues and TODO list%%%
-% Warning overfull \hbox en los códigos
-% Código en texto blanco y negro y comentarios en negritas => Cambiar a formato en colores
+\end{document}
