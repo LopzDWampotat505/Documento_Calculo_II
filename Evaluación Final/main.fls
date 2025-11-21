@@ -191,6 +191,7 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tf
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -218,13 +219,24 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Imagenes\Wolfram Alpha.jpg
+INPUT .\Imagenes\Wolfram Alpha.jpg
+INPUT .\Imagenes\Wolfram Alpha.jpg
+INPUT .\Imagenes\Wolfram Alpha.jpg
+INPUT .\Imagenes\Wolfram Alpha.jpg
+INPUT .\Imagenes\Wolfram Alpha.jpg
 INPUT .\Imagenes\Cilindro.png
 INPUT .\Imagenes\Cilindro.png
 INPUT .\Imagenes\Cilindro.png
 INPUT .\Imagenes\Cilindro.png
 INPUT .\Imagenes\Cilindro.png
 INPUT .\Imagenes\Cilindro.png
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT .\Imagenes\Cilindro en CAD.png
+INPUT .\Imagenes\Cilindro en CAD.png
+INPUT .\Imagenes\Cilindro en CAD.png
+INPUT .\Imagenes\Cilindro en CAD.png
+INPUT .\Imagenes\Cilindro en CAD.png
+INPUT .\Imagenes\Cilindro en CAD.png
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT main.aux
 INPUT .\main.out

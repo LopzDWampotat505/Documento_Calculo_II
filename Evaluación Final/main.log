@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.7)  21 NOV 2025 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.7)  21 NOV 2025 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,11 +455,11 @@ Package pdftex.def Info: Imagenes/UDLAP-eps-converted-to.pdf  used on input line
 [1
 
 {C:/Users/juanp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/UDLAP-eps-converted-to.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 150.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 151.
  (C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 150.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 151.
  (C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -468,44 +468,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \end{equation}
+l.178 \end{equation}
                      [1]
 
 [2]
-<Imagenes/Cilindro.png, id=94, 150.5625pt x 297.11pt>
+<Imagenes/Wolfram Alpha.jpg, id=101, 774.895pt x 525.965pt>
+File: Imagenes/Wolfram Alpha.jpg Graphic file (type jpg)
+<use Imagenes/Wolfram Alpha.jpg>
+Package pdftex.def Info: Imagenes/Wolfram Alpha.jpg  used on input line 233.
+(pdftex.def)             Requested size: 338.58632pt x 229.82019pt.
+<Imagenes/Cilindro.png, id=102, 150.5625pt x 297.11pt>
 File: Imagenes/Cilindro.png Graphic file (type png)
 <use Imagenes/Cilindro.png>
-Package pdftex.def Info: Imagenes/Cilindro.png  used on input line 234.
+Package pdftex.def Info: Imagenes/Cilindro.png  used on input line 241.
 (pdftex.def)             Requested size: 145.11053pt x 286.3784pt.
 
 
-[3 <./Imagenes/Cilindro.png>]
+[3 <./Imagenes/Wolfram Alpha.jpg>]
+<Imagenes/Cilindro en CAD.png, id=110, 719.68875pt x 617.30624pt>
+File: Imagenes/Cilindro en CAD.png Graphic file (type png)
+<use Imagenes/Cilindro en CAD.png>
+Package pdftex.def Info: Imagenes/Cilindro en CAD.png  used on input line 249.
+(pdftex.def)             Requested size: 241.84843pt x 207.44174pt.
+
+
+[4 <./Imagenes/Cilindro.png>]
+
+[5 <./Imagenes/Cilindro en CAD.png>]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 41.
 See the caption package documentation for explanation.
 
 
 
-[4] (main.aux)
+[6] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4CC32E33727D14454342D26C91351890;2044.
+(rerunfilecheck)             Checksum: EE4609A7CF70E5ECAC0B15CD26342EF6;1990.
  ) 
 Here is how much of TeX's memory you used:
- 14929 strings out of 468133
- 238011 string characters out of 5430713
- 662524 words of memory out of 5000000
- 43318 multiletter control sequences out of 15000+600000
+ 14952 strings out of 468133
+ 238631 string characters out of 5430713
+ 662521 words of memory out of 5000000
+ 43336 multiletter control sequences out of 15000+600000
  635350 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,444b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,591b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\juanp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (5 pages, 356228 bytes).
+Output written on main.pdf (7 pages, 453068 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

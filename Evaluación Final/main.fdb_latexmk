@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763749672.82951 "c:/Users/juanp/OneDrive/Documentos/Documento_Calculo_II/Evaluación Final/main.tex" "main.pdf" "main" 1763749673.84537 0
+["pdflatex"] 1763754687.78891 "c:/Users/juanp/OneDrive/Documentos/Documento_Calculo_II/Evaluación Final/main.tex" "main.pdf" "main" 1763754688.80565 0
   "C:/Users/juanp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763748512 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/juanp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1757294292 14064 7aa430d8912a662fe883be105caa9e25 ""
   "C:/Users/juanp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757294282 13257342 7c37529c7eb19108290fd5f7ea2ba05f ""
@@ -110,12 +110,14 @@
   "C:/Users/juanp/AppData/Local/Programs/MiKTeX/tex/latex/tools/enumerate.sty" 1749468414 3468 f21ceb3448a22fec45299f924e7fc48b ""
   "C:/Users/juanp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/juanp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
+  "Imagenes/Cilindro en CAD.png" 1763750355 92789 ad51b0d43da4775d744281ba8f02e775 ""
   "Imagenes/Cilindro.png" 1763749280 5562 5523b6648eba2e139d89350a919b7e49 ""
   "Imagenes/UDLAP.eps" 1763748348 10305161 baf78351cd457d95486b83f6d650f17a ""
-  "c:/Users/juanp/OneDrive/Documentos/Documento_Calculo_II/Evaluación Final/main.tex" 1763749671 14178 b64f271b443b3d158f7161a678ca7c35 ""
-  "main.aux" 1763749673 2100 4354391d800a970ba032621d70e3d635 "pdflatex"
-  "main.out" 1763749673 2044 4cc32e33727d14454342d26c91351890 "pdflatex"
-  "main.tex" 1763749671 14178 b64f271b443b3d158f7161a678ca7c35 ""
+  "Imagenes/Wolfram Alpha.jpg" 1763754410 38275 dd30aa9365a5e97e4627333560dccc5b ""
+  "c:/Users/juanp/OneDrive/Documentos/Documento_Calculo_II/Evaluación Final/main.tex" 1763754686 16277 5d219af10469902ef0cdb6cce3e75da9 ""
+  "main.aux" 1763754688 2557 453a6e7a9cc6815f2e322c345f503d52 "pdflatex"
+  "main.out" 1763754688 1990 ee4609a7cf70e5ecac0b15cd26342ef6 "pdflatex"
+  "main.tex" 1763754686 16277 5d219af10469902ef0cdb6cce3e75da9 ""
   (generated)
   "main.aux"
   "main.log"

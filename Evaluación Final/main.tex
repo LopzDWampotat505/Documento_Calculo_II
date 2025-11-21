@@ -144,7 +144,8 @@
 
 \section{Planteamiento del Problema}
 
-La optimización con restricciones en funciones de dos variables es una técnica clave del análisis matemático, mediante la cual se busca optimizar (maximizar o minimizar) una función objetivo respetando ciertas condiciones que limitan las variables, como por ejemplo un volumen fijo.
+La optimización con restricciones en funciones de dos variables es una técnica clave del análisis matemático, mediante la cual se busca optimizar (maximizar o minimizar) una función objetivo respetando ciertas condiciones que limitan las variables, como por ejemplo un volumen fijo o un presupuesto limitado \cite{IBM}.
+Es relevante mencionar que este enfoque se desarrolla ampliamente en el libro: \textit{Cálculo de varias variables trascendentes tempranas}\cite{Stewart} y se aborda de forma más detallada en el libro: \textit{Engineering Design Optimization} \cite{Martins}. En particular, el capítulo \textit{Constrained Gradient-Based Optimization} explora a fondo los fundamentos teóricos necesarios para comprender este tipo de problemas.
 
 \subsection*{Problema Específico}
 Se desea diseñar un cilindro abierto (sin tapa) con volumen fijo de $V=500\text{ cm}^{3}$ de manera que se minimice el área total del material utilizado.
@@ -162,6 +163,7 @@ Para resolver el problema de optimización, se siguió el siguiente procedimient
  \item \textbf{Planteamiento de la Restricción:} Se despejó la altura $h$ en función del radio $r$ a partir de la restricción del volumen fijo $V=500\text{ cm}^3$.
  \item \textbf{Formulación del Área Total $A(r)$:} Se sustituyó la expresión de $h(r)$ en la función de área $A(r,h)$ para obtener una función de una sola variable, $A(r)$.
  \item \textbf{Búsqueda de Puntos Críticos:} Se calculó la primera derivada $A^{\prime}(r)$, se igualó a cero para encontrar el punto crítico, y se despejó el radio óptimo $r$.
+ \item \textbf{Comprobación de Cálculos:} Se verificaron los datos obtenidos mediante \textit{Wolfram Alpha}.
  \item \textbf{Cálculo de la Altura Óptima:} El valor de $r$ hallado se sustituyó en la expresión de $h(r)$ para obtener la altura óptima $h$.
  \item \textbf{Comprobación (Clasificación):} Se utilizó la segunda derivada $A^{\prime\prime}(r)$ para verificar que el punto crítico corresponde a un mínimo.
  \item \textbf{Evaluación del Área Mínima:} Se sustituyó el radio óptimo en $A(r)$ para obtener el área mínima.
@@ -169,7 +171,7 @@ Para resolver el problema de optimización, se siguió el siguiente procedimient
 
 \section{Cálculos Completos}
 
-\subsection{1. Expresión del Área en una Variable}
+\subsection{Expresión del Área en una Variable}
 \textbf{Restricción (Volumen):} $V=\pi r^{2}h=500$.
 \begin{equation}
  h = \frac{500}{\pi r^{2}} \label{eq:h}
@@ -180,7 +182,7 @@ Sustituyendo $h$ (Ec. \ref{eq:h}) en $A(r,h)$:
  A(r) = 2\pi r \left( \frac{500}{\pi r^{2}} \right) + \pi r^{2} = \frac{1000}{r} + \pi r^{2}
 \end{equation}
 
-\subsection{2. Puntos Críticos}
+\subsection{Puntos Críticos}
 Calculando la primera derivada $A^{\prime}(r)$:
 \begin{equation}
  A^{\prime}(r) = -\frac{1000}{r^{2}} + 2\pi r
@@ -197,7 +199,7 @@ El radio óptimo es:
  r = \left(\frac{1000}{2\pi}\right)^{1/3} \approx 5.419\text{ cm}
 \end{equation}
 
-\subsection{3. Altura Óptima}
+\subsection{Altura Óptima}
 Sustituyendo $r$ en la ecuación de $h$ (Ec. \ref{eq:h}):
 \begin{equation}
  h = \frac{500}{\pi (5.419)^{2}} \approx 5.419\text{ cm}
@@ -225,7 +227,12 @@ Evaluando en el punto crítico (usando la aproximación $r \approx 5\text{ cm}$ 
 Dado que $A^{\prime\prime}(5) > 0$, se concluye que el punto crítico corresponde a un \textbf{mínimo}. Esto significa que las dimensiones $r=h=5.419\text{ cm}$ minimizan el área total del material.
 
 \section{Gráficas Generadas por el Equipo}
-
+En primer lugar, para visualizar las soluciones del problema de optimización, se desarrolló una gráfica en Wolfram Alpha que representa la obtención de los puntos críticos de la función.
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.7\textwidth]{Wolfram Alpha.jpg}
+ \caption{Gráfica generada en Wolfram Alpha para encontrar los puntos críticos de la función $A(r)$.}
+\end{figure}
 La gráfica muestra el modelo geométrico del cilindro sin tapa que se utiliza en el problema de optimización. En este modelo, el volumen del cilindro se mantiene fijo en $500\text{ cm}^3$, y el objetivo es encontrar las dimensiones (radio $r$ y altura $h$) que minimicen el área total del material necesario para construirlo.
 
 
@@ -236,11 +243,18 @@ La gráfica muestra el modelo geométrico del cilindro sin tapa que se utiliza e
 \end{figure}
 
 La visualización ayuda a entender por qué la solución matemática exige que el radio y la altura deben ser iguales ($r = h$) para reducir al mínimo el material utilizado.
+Asimismo, para apoyar en la visualización y demsotracion, se puede desarrollar un modelo en 3D, el cuál, mediante impresion 3D, se peude transmitir a un modelo exacto para mediciones físicas, demostrando el volumen adquirido.
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Cilindro en CAD.png} 
+ \caption{Modelo 3D del Cilindro Óptimo, diseñado mediante CAD (específicamente SolidWorks).}
+\end{figure}
 
 \section{Conclusiones}
 
-El problema de optimización se resolvió satisfactoriamente. El estudio de la optimización con restricciones en funciones de dos variables permitió lograr el diseño óptimo bajo la condición limitante del volumen fijo.
+Los resultados que obtuvimos muestran que el \textbf{área mínima del cilindro} ocurre cuando el radio y la altura son iguales, siendo estos valores aproximados $r=h \approx 5.41926\text{ cm}$. En estas dimensiones, el área total del material alcanza aproximadamente $A \approx 276.791\text{ cm}^{2}$. Esta solución evidencia cómo la \textbf{geometría óptima no surge por intuición}, sino del \textbf{análisis matemático riguroso} basado en derivadas y restricciones.
 
+Algunos ejemplos en la vida real en los que se utiliza la \textbf{optimización con restricciones} podrían ser en los campos de \textbf{diseño industrial, la ingeniería y la manufactura}, donde reducir el área de material implica disminuir costos, peso y desperdicio. También se podría emplear para \textbf{optimizar envases, recipientes, estructuras, piezas mecánicas o cualquier objeto} cuya eficiencia dependa de su forma.
 \begin{itemize}
  \item \textbf{Resultados:} El área mínima del cilindro ocurre cuando el radio y la altura son iguales, con valores aproximados $r=h \approx 5.41926\text{ cm}$.
  \item \textbf{Área Mínima:} En estas dimensiones, el área total del material alcanza aproximadamente $A \approx 276.791\text{ cm}^{2}$.
