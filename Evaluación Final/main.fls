@@ -14,13 +14,13 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.de
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-en.ini
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
@@ -217,7 +217,6 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Imagenes\Wolfram Alpha.jpg
 INPUT .\Imagenes\Wolfram Alpha.jpg
@@ -225,12 +224,12 @@ INPUT .\Imagenes\Wolfram Alpha.jpg
 INPUT .\Imagenes\Wolfram Alpha.jpg
 INPUT .\Imagenes\Wolfram Alpha.jpg
 INPUT .\Imagenes\Wolfram Alpha.jpg
-INPUT .\Imagenes\Cilindro.png
-INPUT .\Imagenes\Cilindro.png
-INPUT .\Imagenes\Cilindro.png
-INPUT .\Imagenes\Cilindro.png
-INPUT .\Imagenes\Cilindro.png
-INPUT .\Imagenes\Cilindro.png
+INPUT .\Imagenes\Gráfica Cilindro.jpg
+INPUT .\Imagenes\Gráfica Cilindro.jpg
+INPUT .\Imagenes\Gráfica Cilindro.jpg
+INPUT .\Imagenes\Gráfica Cilindro.jpg
+INPUT .\Imagenes\Gráfica Cilindro.jpg
+INPUT .\Imagenes\Gráfica Cilindro.jpg
 INPUT .\Imagenes\Cilindro en CAD.png
 INPUT .\Imagenes\Cilindro en CAD.png
 INPUT .\Imagenes\Cilindro en CAD.png
@@ -241,8 +240,6 @@ INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tf
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
-INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\juanp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\juanp\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
